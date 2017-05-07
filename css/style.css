@@ -46,3 +46,26 @@ blockquote p {
   display: inline;
   font-style: italic;
 }
+
+nav {
+  float:none;
+  margin:0 auto;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  color:#777;
+  margin-left: 1.5rem;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+nav a:hover {
+  color:#000;
+  border-color: #000;
+  border-width:2px;
+}
+
